@@ -1,0 +1,10 @@
+# Tibco EMS
+ems:
+    :factory: com.tibco.tibjms.TibjmsConnectionFactory
+    :serverUrl: tcp://10.130.43.118:3122,tcp://10.130.43.119:3122
+    :username: "acn"
+    :password: "acn"
+    :require_jars:
+        - /appl/tibco/ems/7.0/lib/jms.jar
+        - /appl/tibco/ems/7.0/lib/tibjms.jar
+        - /appl/tibco/ems/7.0/lib/tibcrypt.jar
